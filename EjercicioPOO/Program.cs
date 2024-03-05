@@ -12,6 +12,7 @@
             nuevoApartamento.SetPuerta(nuevaPuerta);
             persona.SetCasa(nuevoApartamento);
             persona.MostrarDatos();
+            //nuevoApartamento.MostrarDatos();
         }
     }
 }

@@ -37,8 +37,7 @@ namespace EjercicioPOO
         public void MostrarDatos()
         {
             Console.WriteLine("Mi nombre es " + nombre);
-            apartamento.MostrarDatos();
-            casa.puerta.MostrarDatos();
+            casa.MostrarDatos();
         }
     }
 }

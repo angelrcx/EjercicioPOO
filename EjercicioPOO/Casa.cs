@@ -30,6 +30,7 @@ namespace EjercicioPOO
         public void MostrarDatos()
         {
             Console.WriteLine("Soy  una Casa, mi area es " + area + "m2");
+            puerta.MostrarDatos();
         }
     }
 }
